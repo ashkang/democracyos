@@ -1,4 +1,44 @@
 
+2.6.0 / 2017-06-09
+==================
+
+  * Fix mongoIdString comparison
+  * Add tags fuzzy search autocomplete
+  * Fix arrow function messing up virtuals scope on Topic Model
+  * Update topic support icon
+  * Add topic tag navigation
+
+2.5.2 / 2017-06-02
+==================
+
+  * Update democracyos-notifier to 1.5.0
+  * Remove topic-voted job calls
+  * Remove unused rssEnabled and commentsPerPage configs
+  * Remove feedsLimit from docs
+  * Fix topic closed flag
+
+2.5.1 / 2017-05-25
+==================
+
+  * Update democracy-notifier to 1.4.0
+
+2.5.0 / 2017-05-25
+==================
+
+  * Fix error when DemocracyOS is not initialized
+  * Add ONBUILD commands for /ext on Docker image
+  * Fix logout on settings and admin
+  * Fix links text on topic form
+  * Fix topic closingAt admin form
+  * Add description fields on Topic form
+  * Remove flaticons
+  * Add /notifications route to urlBuilder
+  * Add /settings routes to urlBuilder
+  * Add Topic.participantsCount to DB #1417
+  * Add Topic Support Action
+  * Add Topic Preview on admin
+  * Add Collaborative Forum
+
 2.4.0 / 2017-05-04
 ==================
 

@@ -46,6 +46,11 @@
           - if (te('admin-topics-form.description.tags'))
             span.help-text= t('admin-topics-form.description.tags')
           div.tags-autocomplete
+          - if (forum.initialTags && forum.initialTags.length > 0)
+            span.help-text= t('admin-topics-form.description.forum-tags')
+            - each tag in forum.initialTags
+              button.btn.btn-default.btn-sm.forum-tag(data-value=tag, type='button', disabled=(topic.tags && !!~topic.tags.indexOf(tag)))= tag
+
         - if (forum.topicsAttrs.length > 0)
           fieldset.attrs-wrapper
             legend= t('admin-topics-form.label.attrs')
