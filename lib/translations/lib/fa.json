@@ -305,7 +305,7 @@
   "proposal-options.nay": "خیر",
   "proposal-options.no-votes-cast": "رای‌ای داده نشده",
   "proposal-options.vote": "رای",
-  "proposal-options.vote-item": "",
+  "proposal-options.vote-item": " ",
   "proposal-options.voted-abstained": "شما از رای دادن امتناع کرده‌اید",
   "proposal-options.voted-nay": "رای شما خیر است",
   "proposal-options.voted-yea": "رای شما بلی است",
