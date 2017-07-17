@@ -45,6 +45,10 @@
       "name": "The DemocracyOS Team",
       "email": "no-reply@democracyos.org",
       "service": "",
+      "host": "",
+      "port": 587,
+      "secure": false,
+      "logger": false,
       "auth": {
         "user": "",
         "pass": ""
