@@ -59,6 +59,9 @@
   "slack": {
     "apiErrorWebhookUri": ""
   },
+  "recaptchaSite": "",
+  "recaptchaSecret": "",
+  "blackListEmails": [],
   "client": [
     "protocol",
     "host",
@@ -93,7 +96,8 @@
     "segmentKey",
     "spamLimit",
     "availableLocales",
-    "warnHTTP"
+    "warnHTTP",
+    "recaptchaSite"
   ],
   "socialshare": {
     "siteName": "DemocracyOS",
