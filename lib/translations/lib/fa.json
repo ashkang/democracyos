@@ -415,7 +415,7 @@
   "sorts.recently-updated": "اخیرا به روز رسانی شده‌ها",
   "topics.actions.cause.do": "حمایت میکنم",
   "topics.actions.cause.done": "شما حمایت میکنید",
-  "topics.actions.poll.do": " ",
+  "topics.actions.poll.do": "ثبت رای",
   "validators.checked": "فیلد ضروری انتخاب شده",
   "validators.input.not-exists": "المان {name} وجود ندارد.",
   "validators.invalid": "نادرست",
